@@ -1,0 +1,79 @@
+#navbar-fixed{
+    Position:fixed; 
+    Top:0;
+    left: 0;
+    margin-bottom: 25px;
+    background-color: darkred;
+    list-style-type: none;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: floralwhite;
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+		}
+
+#container{
+    width:960px;
+    margin: 0 auto;
+    font-size: 100%;
+}
+
+
+#spacer{
+    margin: 100px;
+}
+
+#body{
+   width: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#content_left{
+    width:22%;
+    float:left;
+    padding-right: 8%;
+}
+
+#wim{
+    font-variant: small-caps;
+}
+
+#content_right{
+    width:70%;
+    float: right;
+        
+}
+
+img{
+    width: 672px;
+}
+@media screen and (max-width:2000px) and (min-width:1200px){
+    #read_more {display:none;}
+    p{font-size:100%;
+    }
+}
+@media screen and (max-width:1200px)and (min-width:768px) {
+    #read_more {display:none;}
+    p{font-size:100%;
+    }
+}
+@media screen and (max-width:768px) and (min-width:480px) {
+    img{
+        width: 50%;
+    }
+    #read_more {display:none;}
+    #container{
+        max-width:768px;
+        min-width:480px;
+    }
+    p{font-size:120%;
+    }
+}
+
+@media screen and (max-width:480px) and (min-width:0px) {
+    img{ display: none;}
+    #part_2 {display:none;}
+    p{font-size:150%;
+    }
+}
